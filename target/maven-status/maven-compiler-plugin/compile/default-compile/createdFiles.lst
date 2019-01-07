@@ -1,0 +1,6 @@
+restorans\controller\MenuController.class
+restorans\repository\MenuesRepository.class
+restorans\model\ResponseMenu.class
+restorans\MenuApplication.class
+restorans\model\Menu.class
+restorans\dao\MenuDAO.class
