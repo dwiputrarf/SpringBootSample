@@ -36,24 +36,24 @@ This is a RESTFUL API project using Springboot technology with following method 
     	<groupId>org.springframework.boot</groupId>
     	<artifactId>spring-boot-devtools</artifactId>
     	<scope>runtime</scope>
-    </dependency>
-    <dependency>
-    	<groupId>mysql</groupId>
+  </dependency>
+  <dependency>
+   	<groupId>mysql</groupId>
     	<artifactId>mysql-connector-java</artifactId>
     	<scope>runtime</scope>
-    </dependency>
-    <dependency>
+  </dependency>
+  <dependency>
     	<groupId>org.springframework.boot</groupId>
     	<artifactId>spring-boot-starter-test</artifactId>
     	<scope>test</scope>
-    </dependency>
+  </dependency>
   ```
   **Notes that web app have a dependency of data-jpa than that project require an application.properties file**
   
 ## Make application.properties file on res folder
 1. **Right click on src/main/resources >** new > other
 2. **In create wizard dialog >** go to general files > next
-3. **In create new file resources >** enter your directory to `src/main/resources` and your file name **applicaton.properties**
+3. **In create new file resources >** enter your directory to `src/main/resources` and your file name `applicaton.properties`
   ```
 # Data Source spring (DtsaSourceAutoConfiguration & data DataSourceProperties)
 spring.datasource.url = jdbc:mysql://localhost:3306/exampledb?useSSL=false
@@ -71,6 +71,11 @@ spring.jpa.hibernate.ddl-auto = update
 server.port = 8383
   ```
 ## Enable src/main/java
-1. **Right click on `maven project root` >** properties > 
+1. **Right click on `maven project root` >** properties 
 2. **On Properties Dialog select >** maven build path > then select all on order and export.  
 3. Click Apply and Close
+
+## Set up your package directory in your src/main/java
+1. Make 4 package that are essenssial for springboot, that are : controller, model, repository, and dao
+2. Right click on `src/main/java` > new > package
+3. Entry the package name and then click finish
