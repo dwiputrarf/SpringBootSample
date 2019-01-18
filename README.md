@@ -56,7 +56,7 @@ This is a RESTFUL API project using Springboot technology with following method 
 3. In create new file resources > enter your directory to src/main/resources and your file name applicaton.properties
   ```
 # Data Source spring (DtsaSourceAutoConfiguration & data DataSourceProperties)
-spring.datasource.url = jdbc:mysql://localhost:3306/kable?useSSL=false
+spring.datasource.url = jdbc:mysql://localhost:3306/exampledb?useSSL=false
 spring.datasource.username = root
 spring.datasource.password = 
 
