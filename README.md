@@ -3,3 +3,4 @@ This is a RESTFUL API project using Springboot technology with following method 
 1. JPA Repository
 2. MySQL Database
 3. Hibernate
+4. Standard JSON ResponseEntity
