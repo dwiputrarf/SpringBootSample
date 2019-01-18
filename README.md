@@ -17,8 +17,8 @@ This is a RESTFUL API project using Springboot technology with following method 
  ```
   <parent>
   	<groupId>org.springframework.boot</groupId>
-	  <artifactId>spring-boot-starter-parent</artifactId>
- 	  <version>1.5.4.RELEASE</version>
+	<artifactId>spring-boot-starter-parent</artifactId>
+ 	<version>1.5.4.RELEASE</version>
   	<relativePath/>
   </parent>
   ```
