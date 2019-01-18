@@ -55,18 +55,18 @@ This is a RESTFUL API project using Springboot technology with following method 
 2. In create wizard dialog > go to general files > next
 3. In create new file resources > enter your directory to src/main/resources and your file name applicaton.properties
   ```
-/#Data Source spring (DtsaSourceAutoConfiguration & data DataSourceProperties)
+\#Data Source spring (DtsaSourceAutoConfiguration & data DataSourceProperties)
 spring.datasource.url = jdbc:mysql://localhost:3306/kable?useSSL=false
 spring.datasource.username = root
 spring.datasource.password = 
 
-/#Hibernate Properties
-/#The SQL dialect makes Hibernate generate better SQL for the chosen database
+\#Hibernate Properties
+\#The SQL dialect makes Hibernate generate better SQL for the chosen database
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 
-/#Hibernate ddl auto (Create, Create-Drop, Validate, Update)
+\#Hibernate ddl auto (Create, Create-Drop, Validate, Update)
 spring.jpa.hibernate.ddl-auto = update
 
-/#Tomcat Server PORT
+\#Tomcat Server PORT
 server.port = 8383
   ```
