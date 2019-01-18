@@ -40,3 +40,11 @@ This is a RESTFUL API project using Springboot technology with following method 
     	<scope>test</scope>
     </dependency>
   ```
+  **Notes that web app have a dependency of data-jpa than that project require an application.properties file**
+  
+## Make application.properties file on res folder
+1. Right click on src/main/resources > new > other
+2. In create wizard dialog > go to general files > next
+3. In create new file resources > enter your directory to src/main/resources and your file name applicaton.properties
+  
+  
