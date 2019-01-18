@@ -23,3 +23,20 @@ This is a RESTFUL API project using Springboot technology with following method 
   </parent>
   ```
  2. Add the dependency in `dependecies tag`
+  ```
+  <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-devtools</artifactId>
+    	<scope>runtime</scope>
+    </dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<scope>runtime</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-test</artifactId>
+    	<scope>test</scope>
+    </dependency>
+     ```
